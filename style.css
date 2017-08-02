@@ -3,7 +3,7 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 
 body {
-	background-color: #606060;
+	background-color: #444444;
 }
 
 /*IDS*/
@@ -20,14 +20,6 @@ body {
 	width: 100%;
 	margin: 0 auto;
 	overflow: hidden;
-}
-
-#home_image {
-	height: 80%;
-	width: auto;
-	margin-left: 50%;
-	transform: translateX(-50%);
-
 }
 
 /*CLASSES*/
