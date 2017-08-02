@@ -1,4 +1,12 @@
+/*GLOBAL SETTINGS*/
+
 * { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+	background-color: #606060;
+}
+
+/*IDS*/
 
 #menu_container {
 	position: fixed;
@@ -8,11 +16,21 @@
 }
 
 #content_container {
-	width:100%;
-	margin: 0;
-	padding: 100px 50px 50px 50px ;
-	background-color: #606060;
+	padding-top: 50px;
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
 }
+
+#home_image {
+	height: 80%;
+	width: auto;
+	margin-left: 50%;
+	transform: translateX(-50%);
+
+}
+
+/*CLASSES*/
 
 .nav_bar{
 	margin: 0;
@@ -27,6 +45,8 @@
 	background-color: #e20404;
 }
 
+/*TAGS*/
+
 li {
 	float: left;
 
@@ -35,7 +55,7 @@ li {
 li img {
 	display: block;
 	margin-right: 30px;
-	margin-left: 10px;	
+	margin-left: 30px;	
 }
 
 li a{
@@ -50,4 +70,13 @@ li a{
 
 li a:hover {
 	background-color: #302f2f;
+}
+
+p1 {
+	display: block;
+	padding-top: 4%;
+	width: 100%;
+	font-family: 'Julius Sans One', bold, sans-serif;
+	color: #e20404;
+	font-size: 100px;
 }
