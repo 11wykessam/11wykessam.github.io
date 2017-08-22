@@ -2,7 +2,7 @@
 /*CLASSES*/
 .selectionPane {
 	background-color: white;
-	flex-basis: 15.5%;
+	flex-basis: 16%;
 	margin: 1% 0% 1% 0%;
 	overflow: hidden;
 	opacity: 0.9;
@@ -15,7 +15,8 @@
 
 .selectionPane h1 {
 	font-family: 'Raleway', sans-serif;
-	font-size: 2em;	
+	font-size: 1.8em;
+	padding-left: 5%;
 }
 
 .selectionPane hr {
