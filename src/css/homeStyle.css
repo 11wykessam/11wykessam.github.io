@@ -1,3 +1,37 @@
+
+/*CLASSES*/
+.selectionPane {
+	background-color: white;
+	flex-basis: 15.5%;
+	margin: 1% 0% 1% 0%;
+	overflow: hidden;
+	opacity: 0.9;
+	transition: all 0.3s ease;
+}
+
+.selectionPane:hover {
+	flex-basis: 30%;
+}
+
+.selectionPane h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 2em;	
+}
+
+.selectionPane hr {
+	width: 90%;
+	border: 0;
+	outline: solid 1px black;
+}
+
+.selectionPane a {
+	text-decoration: none;
+	display: block;
+	color: black;
+	width: 100%;
+	height: 100%;	
+}
+
 /*IDS*/
 #homeBody {
 	width: 100%;
@@ -11,31 +45,68 @@
 	background-position: center;
 	background-repeat: no-repeat;
 
+}
+
+#projectsPane a {
 	color: white;
 	text-shadow: black;
 }
 
-/*CLASSES*/
-.selectionPane {
-	background-color: white;
-	flex-basis: 15%;
-	margin: 1% 0% 1% 0%;
-	overflow: hidden;
-	opacity: 0.7;
-	transition: all 0.3s ease;
+#projectsPane hr {
+	outline: 1px solid white;
 }
 
-.selectionPane:hover {
-	flex-basis: 30%;
+#aboutPane {
+	background-image: url("../../res/imgs/circles1.png");
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
-.selectionPane h1 {
-	font-family: 'Raleway', sans-serif;
-	font-size: 2em;
+#aboutPane a {
+	color: black;
+	text-shadow: white;
 }
 
-.selectionPane hr {
-	width: 90%;
-	border: 0;
-	outline: solid 1px white;
+#aboutPane hr {
+	outline: 1px solid black;
 }
+
+#socialMediaPane {
+	background-image: url("../../res/imgs/bwCircles1.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#socialMediaPane a {
+	color: black;
+	text-shadow: white;
+}
+
+#socialMediaPane hr {
+	outline: 1px solid black;
+}
+
+#javaPane {
+	background-image: url("../../res/imgs/circles2.png");
+	background-position: center;
+	background-repeat: repeat;
+}
+
+#pythonPane {
+	background-image: url("../../res/imgs/slide2.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#pythonPane h1 {
+	color: white;
+	background-color: black;
+	padding-bottom: 2%;
+	-webkit-text-stroke: 0.5px black;
+}
+
+#pythonPane hr {
+	outline: 1px solid white;
+}
+
+
