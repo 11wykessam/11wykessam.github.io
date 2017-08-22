@@ -43,7 +43,7 @@
 #projectsPane {
 	background-image: url("../../res/imgs/slide1.png");
 	background-position: center;
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 
 }
 
@@ -59,7 +59,7 @@
 #aboutPane {
 	background-image: url("../../res/imgs/circles1.png");
 	background-position: center;
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 }
 
 #aboutPane a {
@@ -74,7 +74,7 @@
 #socialMediaPane {
 	background-image: url("../../res/imgs/bwCircles1.png");
 	background-position: center;
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 }
 
 #socialMediaPane a {
@@ -95,7 +95,7 @@
 #pythonPane {
 	background-image: url("../../res/imgs/slide2.png");
 	background-position: center;
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 }
 
 #pythonPane h1 {
