@@ -39,6 +39,7 @@
 	height: 100%;
 	display: inline-flex;
 	justify-content: space-around;
+	overflow: hidden;
 }
 
 #projectsPane {

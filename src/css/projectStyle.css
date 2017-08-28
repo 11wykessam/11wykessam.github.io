@@ -1,0 +1,106 @@
+#projectsBody {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	align-content: space-around;
+	overflow: visible;
+}
+
+.projectsTab {
+	width: 48%;
+	height: 45%;
+	background-color: white;
+}
+
+.projectsTab a {
+	text-decoration: none;
+	color: black;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.projectsTab h1{
+	padding-top: 5%;
+	font-family: 'Raleway', sans-serif;
+	font-size: 2em;
+	padding-left: 5%;
+}
+
+.projectsTab hr {
+	width: 90%;
+	border: 0;
+	outline: solid 1px black;
+}
+
+.hpane {
+	flex-grow: 1;
+	height: auto;
+	width: 90%;
+	margin-left: 5%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;	
+	overflow: hidden;
+}
+
+.hpane p {
+	padding-top: 5px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1em;
+	width: 70%;
+}
+
+#javaProjectsBody {
+	height: auto;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	overflow: auto;
+}
+
+#javaProjectsBody h1 {
+	padding-top: 1em;
+	font-family: 'Raleway', sans-serif;
+	font-size: 3em;
+}
+
+#javaProjectsBody hr {
+	width: 70%;
+	outline: solid 1px black;
+	border: 0;
+}
+
+.projectContainer {
+	width: 70%;
+	height: 300px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.projectContainer img {
+	height: 100%;
+	width: auto;
+}
+
+.projectContainer p {
+	font-family: 'Raleway', sans-serif;
+	width: 45%;
+}
+
+.projectContainer a {
+	padding: 1em;
+	background-color: #444444;
+	text-decoration: none;
+	color: white;
+	display: block;
+	text-align: center;
+}
+.projectContainer a:hover {
+	background-color: #302f2f;
+}

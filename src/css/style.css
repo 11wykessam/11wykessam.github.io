@@ -35,10 +35,13 @@ body {
 }
 
 .body {
+	position: fixed;
+	top: 10%;	
 	height: 80%;
 	width: 100%;
 	background-color: #666666;
 	display: block;
+	overflow: auto;
 }
 
 .footer {
