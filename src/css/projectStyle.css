@@ -12,6 +12,7 @@
 .projectsTab {
 	width: 48%;
 	height: 45%;
+	opacity: 0.9;
 	background-color: white;
 }
 
@@ -77,20 +78,25 @@
 
 .projectContainer {
 	width: 70%;
-	height: 300px;
+	height: auto;	;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 }
 
 .projectContainer img {
-	height: 100%;
+	height: 300px;
 	width: auto;
+	padding-right: 20px;
 }
 
 .projectContainer p {
 	font-family: 'Raleway', sans-serif;
 	width: 45%;
+}
+
+.projectContainer:last-child {
+	margin-bottom: 20px;	
 }
 
 .projectContainer a {
