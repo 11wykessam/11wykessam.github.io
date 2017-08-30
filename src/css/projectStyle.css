@@ -95,10 +95,6 @@
 	width: 45%;
 }
 
-.projectContainer:last-child {
-	margin-bottom: 20px;	
-}
-
 .projectContainer a {
 	padding: 1em;
 	background-color: #444444;
@@ -109,4 +105,8 @@
 }
 .projectContainer a:hover {
 	background-color: #302f2f;
+}
+
+.projectContainer:last-child {
+	margin-bottom: 20px;	
 }
