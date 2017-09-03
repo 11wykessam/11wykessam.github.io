@@ -13,7 +13,9 @@
 
 .projectsTab {
 	width: 48%;
-	height: 45%;
+	min-height: 45%;
+	margin: 0.5em;
+	padding-bottom: 1em;
 	opacity: 0.9;
 	background-color: #595959;	
 }
