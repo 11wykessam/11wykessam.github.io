@@ -101,16 +101,17 @@
 
 .projectContainer img {
 	height: 300px;
+	max-width: 50%;
 	width: auto;
 	padding-right: 20px;
 }
 
 .projectContainer p {
 	font-family: 'Raleway', sans-serif;
-	width: 45%;
+	flex-basis: 50%;
 }
 
-.projectContainer a {
+.downloadButton{
 	padding: 1em;
 	background-color: #444444;
 	text-decoration: none;
@@ -118,9 +119,10 @@
 	display: block;
 	text-align: center;
 }
-.projectContainer a:hover {
+.downloadButton:hover {
 	background-color: #302f2f;
 }
+
 
 .projectContainer:last-child {
 	margin-bottom: 20px;	
