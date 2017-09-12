@@ -99,11 +99,16 @@
 	justify-content: space-around;
 }
 
-.projectContainer img {
+.projectContainer .imageContainer {
+	display: block;
 	height: 300px;
-	max-width: 50%;
-	width: auto;
-	padding-right: 20px;
+	width: 45%;
+	text-align: center;
+}
+
+.projectContainer img {
+	max-height: 100%;
+	max-width: 100%;
 }
 
 .projectContainer p {
@@ -135,10 +140,12 @@
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	align-content: center;
 }
 
 .projectEulerTab {
 	background-color: #595959;
+	width: 16.5em;
 	opacity: 0.8;
 	margin: 1em;
 }
