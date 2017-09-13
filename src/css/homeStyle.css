@@ -1,5 +1,7 @@
 
 /*CLASSES*/
+
+
 .selectionPane {
 	background-color: white;
 	flex-basis: 16%;
@@ -12,6 +14,24 @@
 .selectionPane:hover {
 	flex-basis: 30%;
 }
+
+@media screen and (max-width: 780px) {
+	.selectionPane {
+		background-color: white;
+		flex-basis: 90%;
+		margin: 1% 0% 1% 0%;
+		height: 18%;
+		overflow: hidden;
+		opacity: 0.9;
+		height: 
+		transition: all 0.3s ease;
+		text-orientation: sideways;
+	}
+	.selectionPane:hover {
+		flex-basis: 100%;
+	}
+}
+
 
 .selectionPane h1 {
 	font-family: 'Raleway', sans-serif;
@@ -38,6 +58,7 @@
 	width: 100%;
 	height: 100%;
 	display: inline-flex;
+	flex-wrap: wrap;
 	justify-content: space-around;
 	overflow: hidden;
 }
