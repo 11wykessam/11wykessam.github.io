@@ -178,7 +178,13 @@
 	background-color: #333333	;
 }
 
+/*mobile stuff*/
 @media screen and (max-device-width: 780px) {
+
+	.projectsTab p {
+		padding-bottom: 1em;
+		font-size: 1.5em;
+	}
 	.projectContainer .imageContainer {
 		display: block;
 		height: auto;
