@@ -18,5 +18,6 @@
 	font-size: 1em;
 	column-count: 2;
 	column-gap: 3em;
-	column-rule-style: solid;	
+	column-rule-style: solid;
+	word-wrap: break-word;
 }

@@ -4,6 +4,7 @@
 	overflow: hidden;
 	display: flex;
 	justify-content: space-around;
+	background-color: black;
 }
 
 #mobileBodyImg {
