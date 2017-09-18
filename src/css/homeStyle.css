@@ -15,7 +15,7 @@
 	flex-basis: 30%;
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-device-width: 780px) {
 	.selectionPane {
 		background-color: white;
 		flex-basis: 90%;
