@@ -11,6 +11,14 @@
 	overflow: visible;
 }
 
+#placeholder {
+	width: 48%;
+	min-height: 45%;
+	margin: 0.5em;
+	opacity: 0.9;
+	background-color: #666666;	
+}
+
 .projectsTab {
 	width: 48%;
 	min-height: 45%;
